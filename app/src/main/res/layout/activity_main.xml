@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="500dp" />
+
+
+    <Button
+        android:id="@+id/buttonAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="266dp"
+        android:backgroundTint="@color/teal_700"
+        android:text="Dodaj Notatke" />
+
+    <Button
+        android:id="@+id/buttonDelete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="266dp"
+        android:backgroundTint="#8C2B23"
+        android:text="Usuń Notatkę" />
+
+    <Button
+        android:id="@+id/buttonUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="266dp"
+        android:backgroundTint="#FFC107"
+        android:text="Aktualizuj Notatkę" />
+
+</LinearLayout>
